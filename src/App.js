@@ -47,7 +47,6 @@ function App() {
         setData(resp.data.Search);
       }
     } catch (error) {
-      console.log(error);
       return false;
     }
   }
