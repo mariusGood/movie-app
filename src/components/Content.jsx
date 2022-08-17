@@ -8,7 +8,7 @@ const Content = ({ data }) => {
       {data.length !== 0 && (
         <>
           {data.Poster !== 'N/A' ? (
-            <img src={data.Poster} alt='' className='border w-25' />
+            <img src={data.Poster} alt='' className='border h-25' />
           ) : (
             <img
               src={image}
